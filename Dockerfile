@@ -17,7 +17,7 @@ ADD id_rsa /root/.ssh/id_rsa
 #ADD authorized_keys /root/.ssh/authorized_keys
 #RUN chmod 600 /root/.ssh/id_rsa
 EXPOSE 3306
-RUN git clone git@bitbucket.org:kianoushkarbasi/newki-sql-backup.git
+RUN git clone https://github.com/newkisoft/newki-sql-backup.git
 #RUN apt-get install -y apache2
 RUN cd /newki-sql-backup/
 RUN apt-get update  
