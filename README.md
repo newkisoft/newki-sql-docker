@@ -3,7 +3,7 @@ postgresql docker
 
 To run the docker use:
 
-- sh rundocker.sh
+<pre>sh rundocker.sh</pre>
 
 you can access your database using 'localhost' with port '5432' 
 username: sa
